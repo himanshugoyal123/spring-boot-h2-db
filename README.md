@@ -7,6 +7,8 @@
 **Youtube videos -**
 1. Youtube Playlist link (Telusko) - https://www.youtube.com/playlist?list=PLsyeobzWxl7oA8QOlMtQsRT_I7Rx2hoX4
 2. Another end-to-end implementation - https://youtu.be/XR7Js_q93Ks
+3. Codebase ref - https://github.com/Java-Techie-jt/spring-boot-h2/tree/master
+4. H2 database - https://www.baeldung.com/spring-boot-h2-database
 
 **Code explained -**
 1. Employee - Employee table in H2 database.
@@ -20,6 +22,7 @@
 **Annotations -**
 1. @RestController - The Controller class has to be annotated with this.
 2. @GetMapping, @PostMapping, @PutMapping and @DeleteMapping for performing get, insert/update, insert/update and deleting operations on the H2 DB.
+3. @Entity - The entities are the persistence objects stores as a record in the database.
 
 **H2 database -**
 1. Its a SQL in-memory database.
